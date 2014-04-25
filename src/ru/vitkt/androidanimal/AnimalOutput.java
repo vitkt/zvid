@@ -18,7 +18,10 @@ public class AnimalOutput {
 		
 
 	}
-
+	float getTouchEmotionFactor()
+	{
+		return animalScreen.getTouchEmotionFactor(); 
+	}
 	public  void setColorToScreen(final int a, final int r, final int g, final int b) {
 
 
